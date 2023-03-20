@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latesearthquake-id"
+version = "0.0.1"
+authors = [
+  { name="Abdul kahar muzakir", email="abdkaharmuzakir@gmail.com" },
+]
+description = "This package will get the latest earthquake from Meteorological, Climatological, and Geophysical Agency"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kaharmz/latest-id-earthquake"
+"Bug Tracker" = "https://github.com/kaharmz/latest-id-earthquake/issues"
